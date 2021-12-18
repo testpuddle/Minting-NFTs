@@ -2,24 +2,26 @@
 
 NFT Making on the IC 
 MY NOTES as A beginner
-Disclaimer
-	These are my notes and may contain inaccuracies.
-	Use the information at your own risk.
+
+## Disclaimer
+These are my notes and may contain inaccuracies.
+Use the information at your own risk.
 
 
   
-Non-Fungible Token (NFT)
-	A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain).
-	NFTs can be associated with reproducible digital files such as photos, videos, and audio.
-	NFTs use a digital ledger to provide a public certificate of authenticity or proof of ownership, but it does not restrict the sharing or copying of the underlying digital file.
-	The lack of interchangeability (fungibility) distinguishes NFTs from blockchain cryptocurrencies, such as Bitcoin.
+##Non-Fungible Token (NFT)
+A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain).
+NFTs can be associated with reproducible digital files such as photos, videos, and audio.
+NFTs use a digital ledger to provide a public certificate of authenticity or proof of ownership, but it does not restrict the sharing or copying of the underlying digital file.
+The lack of interchangeability (fungibility) distinguishes NFTs from blockchain cryptocurrencies, such as Bitcoin.
 
-The NFT terminology
-	Digital asset: photo, music, video, game piece, software, ticket stub, etc.
-	Minter: process that converts an asset into an NFT.
-	Wallet – where your assets can be viewed/transferred.
-	Marketplace – where you can buy and sell NFTs.
-Difference between a digital asset and a NFT?
+## The NFT terminology
+Digital asset: photo, music, video, game piece, software, ticket stub, etc.
+Minter: process that converts an asset into an NFT.
+Wallet – where your assets can be viewed/transferred.
+Marketplace – where you can buy and sell NFTs.
+
+## Difference between a digital asset and a NFT?
 Costs of minting an NFT on the IC
 	NFTs are stored in canisters.  
 	Minting a canister costs about $3 USD on the IC:
