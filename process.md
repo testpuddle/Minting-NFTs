@@ -1,4 +1,4 @@
-# Creating an NFT using the DIP721NFT smart contract from Blocks-Editor v0.1
+# Creating an NFT using the DIP721NFT smart contract from Blocks-Editor 
 
 ## Aim
 This process will build a DIP721NFT smart contract based on the template provided by the Blocks-Editor.  This is to show NFT functionality and is not a full implementation.
@@ -9,7 +9,9 @@ This is for educational purposes.  This is not fit for production use.  There is
 
 ## Before you begin
   Make sure you have the DFINITY Canister SDK installed as found on https://smartcontract.org
+  
   Confirm the installation is correct by following the quickstart tutorial found here: https://smartcontracts.org/docs/quickstart/local-quickstart.html
+  
   Create three png digital assets and place them in a subdirectory called $HOME/digitalassets calling them 1.png, 2.png and 3.png
  
 ## Step 1: Create a new project named dip721 by running the following command from your home directory:
