@@ -134,7 +134,7 @@ dfx canister call dip721 transferFrom '(principal "p3oiq-zvq7o-ir4je-ngxhk-br4ps
 
 If it worked correctly () will be returned.
 
-## Step 18.  Confirm you no longer own it.
+## Step 18.  Confirm you no longer own it
 
 dfx canister call dip721 doIOwn '(1)'
 
@@ -144,10 +144,14 @@ dfx canister call dip721 ownerOf '(1)'
 
 It will respond with the principal of the new owner.
 
-## Step 19
+## Step 19: Try and transfer an NFT you do not own
 
 Now that you do not own it, try and transfer it again and see what happens.
 
 dfx canister call dip721 transferFrom '(principal "p3oiq-zvq7o-ir4je-ngxhk-br4ps-ymn3e-i7lsc-a6o67-irbt3-h5ddq-pae",principal "zht7g-jivec-azc2g-f5bkj-oxsfc-nvyo6-ch4jb-el2tb-ebyuf-zeo4d-gae",1)'
+
+This should throw an error as the ownership assertion fails.
+
+##Step 20: Add security, a front end, marketplace integration, wallet integration, art work, testing, provenance and have a prosperous life.
 
 
