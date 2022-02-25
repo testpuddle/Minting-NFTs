@@ -82,7 +82,7 @@ dfx canister call dip721 mint http://localhost:8080/1.png
 
 If successful, it will return the TokenID minted, i.e. (1:Nat) for the first Token.
 
-## Step 11: Verify the URI that you used for Token1.
+## Step 11: Verify the URI that you used for Token ID 1
 
 dfx canister call dip721 tokenURI '(1)'
 
@@ -98,7 +98,7 @@ dfx identity list
 
 The one with the * will be the identity being used - normally it will be called default.
 
-dfx get-principal 
+dfx identity get-principal 
 
 ## Step 14: Find another principal to whom you wish to transfer ownership of the NFT.
 
