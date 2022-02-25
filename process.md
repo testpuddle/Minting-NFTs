@@ -30,7 +30,7 @@ dfx start
 
 cp $HOME/digitalassets/*.png  $HOME/dip721/src/dip721_assets/assets
 
-ls -l ./dip721/src/dip721_assets/assets
+ls -l $HOME/dip721/src/dip721_assets/assets
 
 ## Step 4:  Get the sample DIP721NFT template motoko code from Blocks-Editor
 Navigate to https://blocks-editor.github.io/ (if you can't find it - I have a copy use main.mo in this repository.
@@ -48,9 +48,9 @@ Copy the code to the clipboard (by selecting the CLipboard on the bottom of the 
 ## Step 5: Replace the content of the main.mo smart contract with the DIP721NFT content (I use vi but you use VS code or another editor).
 The content is in ./dip721/src/dip721/main.mo
 
-rm ./dip721/src/dip721/main.mo
+rm $HOME/dip721/src/dip721/main.mo
 
-vi ./dip721/src/dip721/main.mo #paste the contents of the clipboard in.
+vi $HOME/dip721/src/dip721/main.mo #paste the contents of the clipboard in.
 
 ## Step 6:  Deploy the canister locally
 
