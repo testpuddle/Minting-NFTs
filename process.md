@@ -28,7 +28,7 @@ dfx start
 
 ## Step 3:  Copy the .png files into the asset Canister 
 
-cp $HOME/digitalassets/*.png  ./dip721/src/dip721_assets/assets
+cp $HOME/digitalassets/*.png  $HOME/dip721/src/dip721_assets/assets
 
 ls -l ./dip721/src/dip721_assets/assets
 
