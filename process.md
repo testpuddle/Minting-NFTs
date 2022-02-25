@@ -78,7 +78,7 @@ If the smartcontract is successfully deployed it will return ("ENFT")
 
 ## Step 10: Mint your first NFT using the DIP721NFT smart contract referencing the URI for the digital asset 1.png
 
-dfx call dip721 dfx canister mint http://localhost:8080/1.png
+dfx canister call dip721 dfx canister mint http://localhost:8080/1.png
 
 If successful, it will return the TokenID minted, i.e. (1:Nat) for the first Token.
 
