@@ -33,7 +33,7 @@ cp $HOME/digitalassets/*.png  $HOME/dip721/src/dip721_assets/assets
 ls -l $HOME/dip721/src/dip721_assets/assets
 
 ## Step 4:  Get the sample DIP721NFT template motoko code from Blocks-Editor
-Navigate to https://blocks-editor.github.io/ (if you can't find it - I have a copy use main.mo in this repository.
+In a new browser tab, navigate to https://blocks-editor.github.io/ (if you can't find it - I have a copy use main.mo in this repository in case this template is no longer available.
 
 Click on Try Online
 
@@ -66,7 +66,7 @@ npm start
 
 http://localhost:8080/1.png  #This should display your .png file.
 
-## Step 9: Test to see the DIP721 NFT smart contract is working.
+## Step 9: Test to see the DIP721 NFT smart contract is working
 
 dfx canister call dip721 name
 
@@ -78,7 +78,7 @@ If the smartcontract is successfully deployed it will return ("ENFT")
 
 ## Step 10: Mint your first NFT using the DIP721NFT smart contract referencing the URI for the digital asset 1.png
 
-call dip721 dfx canister mint http://localhost:8080/1.png
+dfx call dip721 dfx canister mint http://localhost:8080/1.png
 
 If successful, it will return the TokenID minted, i.e. (1:Nat) for the first Token.
 
