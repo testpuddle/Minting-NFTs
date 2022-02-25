@@ -114,6 +114,8 @@ dfx identity get-principal
 
 dfx identity use alice_auth   (This is just an example, use whatever one you see in the list for the example).
 
+If you want to create alice an identity use:  dfx identity new alice_auth
+
 dfx get-principal
 
 ## Step 15: Return to the default identity
