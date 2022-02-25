@@ -32,8 +32,8 @@ cp $HOME/digitalassets/*.png  ./dip721/src/dip721_assets/assets
 
 ls -l ./dip721/src/dip721_assets/assets
 
-## Step 4:  Get the sample DIP721NFT temmplate motoko code from Blocks-Editor
-Navigate to https://blocks-editor.github.io/ 
+## Step 4:  Get the sample DIP721NFT template motoko code from Blocks-Editor
+Navigate to https://blocks-editor.github.io/ (if you can't find it - I have a copy use main.mo in this repository.
 
 Click on Try Online
 
