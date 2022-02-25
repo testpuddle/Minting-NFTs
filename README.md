@@ -11,3 +11,10 @@ Here is my step-by-step video for creating an NFT based on the Blocks-editor DIP
 
 https://youtu.be/IF9Hg94SK1U
 
+
+Step by step instructions are here:
+https://github.com/testpuddle/Minting-NFTs/blob/main/process.md 
+
+Take a look at the powerpoint slideshow or PDF to learn about NFTs.
+
+Good luck!
