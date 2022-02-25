@@ -146,5 +146,8 @@ It will respond with the principal of the new owner.
 
 ## Step 19
 
-Access control and security have not been implemented.
+Now that you do not own it, try and transfer it again and see what happens.
+
+dfx canister call dip721 transferFrom '(principal "p3oiq-zvq7o-ir4je-ngxhk-br4ps-ymn3e-i7lsc-a6o67-irbt3-h5ddq-pae",principal "zht7g-jivec-azc2g-f5bkj-oxsfc-nvyo6-ch4jb-el2tb-ebyuf-zeo4d-gae",1)'
+
 
