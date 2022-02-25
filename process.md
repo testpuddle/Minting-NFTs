@@ -27,19 +27,27 @@ dfx start
 ## Step 3:  Copy the .png files into the asset Canister 
 
 cp $HOME/digitalassets/*.png  ./dip721/src/dip721_assets/assets
+
 ls -l ./dip721/src/dip721_assets/assets
 
 ## Step 4:  Get the sample DIP721NFT temmplate motoko code from Blocks-Editor
 Navigate to https://blocks-editor.github.io/ 
+
 Click on Try Online
+
 Choose Load
+
 Select the DIP721NFT
+
 Select Compile 
+
 Copy the code to the clipboard (by selecting the CLipboard on the bottom of the screen in the Compiled Output Window.
 
 ## Step 5: Replace the content of the main.mo smart contract with the DIP721NFT content (I use vi but you use VS code or another editor).
 The content is in ./dip721/src/dip721/main.mo
+
 rm ./dip721/src/dip721/main.mo
+
 vi ./dip721/src/dip721/main.mo #paste the contents of the clipboard in.
 
 ## Step 6:  Deploy the canister locally
@@ -79,6 +87,7 @@ dfx canister call dip721 tokenURI '(1)'
 ## Step 12:  Confirm you own it
 
 dfx canister call dip721 ownerOf '(1)'
+
 This will return the pricipal that you used at the time of minting.
 
 ## Step 13 Check to see the principal you are using:
@@ -112,9 +121,11 @@ dfx canister call dip721 transferFrom '(principal "p3oiq-zvq7o-ir4je-ngxhk-br4ps
 ## Step 18.  Confirm you no longer own it.
 
 dfx canister call dip721 doIOwn '(1)'
+
 ("false") will be the response as you transferred it to someone else.
 
 dfx canister call dip721 ownerOf '(1)'
+
 It will respond with the principal of the new owner.
 
 ## Step 19
