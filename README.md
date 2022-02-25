@@ -14,7 +14,7 @@ https://github.com/testpuddle/Minting-NFTs/blob/main/NFTmakingv1.pdf
 
 https://github.com/testpuddle/Minting-NFTs/blob/main/NFTmaking.ppsx
 
-## Watch the video 
+## Watch the video showing the process
 
 https://youtu.be/IF9Hg94SK1U
 
