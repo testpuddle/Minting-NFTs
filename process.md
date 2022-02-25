@@ -5,7 +5,7 @@ This process will build a DIP721NFT smart contract based on the template provide
 
 ## Disclaimer
 
-This is for educational purposes.  This is not fit for production use.  There is no security and many features are lacking.  Be ware.
+This is for educational purposes.  This is not fit for production use.  There is no security and many features are lacking.  Beware.
 
 ## Before you begin
   Make sure you have the DFINITY Canister SDK installed as found on https://smartcontract.org
