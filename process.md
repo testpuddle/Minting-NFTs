@@ -132,6 +132,8 @@ REPLACE THE PRINCIPALS with the correct ones.  Note the word principal is essent
 
 dfx canister call dip721 transferFrom '(principal "p3oiq-zvq7o-ir4je-ngxhk-br4ps-ymn3e-i7lsc-a6o67-irbt3-h5ddq-pae",principal "zht7g-jivec-azc2g-f5bkj-oxsfc-nvyo6-ch4jb-el2tb-ebyuf-zeo4d-gae",1)'
 
+If it worked correctly () will be returned.
+
 ## Step 18.  Confirm you no longer own it.
 
 dfx canister call dip721 doIOwn '(1)'
