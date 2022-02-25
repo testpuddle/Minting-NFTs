@@ -152,6 +152,16 @@ dfx canister call dip721 transferFrom '(principal "p3oiq-zvq7o-ir4je-ngxhk-br4ps
 
 This should throw an error as the ownership assertion fails.
 
-##Step 20: Add security, a front end, marketplace integration, wallet integration, art work, testing, provenance and have a prosperous life.
+## Now what?
+
+This was just a example.  You may want to add security, a front end, marketplace integration, wallet integration, art work, testing, payment flows, provenance certification, list integration, scaling, and ensure you understand preservation during upgrades.
+
+I hope this was useful.  Be well.
+
+Take a look at the video:  https://youtu.be/IF9Hg94SK1U that walks you through the process.
+
+Also.  There is a powerpoint slideshow and pdf explaining everything for those who prefer those formats in this repository https://github.com/testpuddle/
+
+Happy NFTing!
 
 
