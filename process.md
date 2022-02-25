@@ -96,13 +96,23 @@ This will return the pricipal that you used at the time of minting.
 
 dfx identity list
 
+Mine returns
+
+alice_auth
+
+anonymous
+
+default *
+
+ic_admin
+
 The one with the * will be the identity being used - normally it will be called default.
 
 dfx identity get-principal 
 
 ## Step 14: Find another principal to whom you wish to transfer ownership of the NFT.
 
-dfx identity use alice_authdf   (This is just an example, use whatever one you see in the list for the example).
+dfx identity use alice_auth   (This is just an example, use whatever one you see in the list for the example).
 
 dfx get-principal
 
