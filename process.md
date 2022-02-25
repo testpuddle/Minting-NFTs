@@ -21,6 +21,7 @@ dfx new dip721
 In a new shell window or tab do:
 
 cd $HOME/dip721
+
 dfx start 
 
 ## Step 3:  Copy the .png files into the asset Canister 
