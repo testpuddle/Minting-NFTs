@@ -7,8 +7,11 @@ MY NOTES as A beginner
 These are my notes and may contain inaccuracies.
 Use the information at your own risk.  No warranty is implied or offered.
 
-## Watch the Powerpoint slide show or view as a PDF
+## Read the PDF pr watch the Powerpoint slide show (The first section deals with DIP721NFT).
 
+https://github.com/testpuddle/Minting-NFTs/blob/main/NFTmakingv1.pdf
+
+https://github.com/testpuddle/Minting-NFTs/blob/main/NFTmaking.ppsx
 
 ## Watch the video 
 
