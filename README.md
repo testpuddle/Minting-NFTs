@@ -23,7 +23,7 @@ https://github.com/testpuddle/Minting-NFTs/blob/main/process.md
 
 The smartcontract code is also stored in main.mo.  
 
-Compare various NFT styles used on the IC:
+## Compare various NFT styles used on the IC:
 https://github.com/testpuddle/Minting-NFTs/blob/main/NFT%20comparison.pdf
 
 Good luck!
