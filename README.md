@@ -21,7 +21,9 @@ https://youtu.be/IF9Hg94SK1U
 ## Follow the Step by step instructions:
 https://github.com/testpuddle/Minting-NFTs/blob/main/process.md 
 
-
 The smartcontract code is also stored in main.mo.  
+
+Compare various NFT styles used on the IC:
+https://github.com/testpuddle/Minting-NFTs/blob/main/NFT%20comparison.pdf
 
 Good luck!
